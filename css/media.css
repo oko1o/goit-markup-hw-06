@@ -1,0 +1,110 @@
+@media all and (min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .features__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .features__list__item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .features__list__item__header,
+    .our-portfolio__list__item__description__header {
+        text-align: left;
+    }
+
+    .our-team-container {
+        max-width: 584px;
+    }
+
+    .our-team__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+    }
+
+    .our-team__list__item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .our-portfolio__list {
+        flex-direction: row;
+        gap: 72px 24px;
+    }
+
+    .our-portfolio__list__item {
+        width: calc((100% - 24px) / 2);
+    }
+}
+
+@media all and (min-width:1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px 0 15px;
+    }
+
+    .features {
+        padding: 120px 0 120px 0;
+    }
+
+    .features__list {
+        gap: 24px;
+    }
+
+    .features__list__item {
+        width: calc((100% - 3 * 24px) / 4);
+    }
+
+    .features__list__item__header {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .features__list__item_icon {
+        border: 1px solid #8e8f99;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+    }
+
+    .features__list__item__text {
+        font-weight: 400;
+    }
+
+    .our-team {
+        background-color: #f4f4fd;
+        padding: 120px 0 120px 0;
+    }
+
+    .our-team__list {
+        gap: 24px;
+    }
+
+    .our-team__list__item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .our-portfolio {
+        padding: 120px 0 120px 0;
+    }
+
+    .our-portfolio__list {
+        gap: 48px 24px;
+    }
+
+    .our-portfolio__list__item {
+        width: calc((100% - 48px) / 3);
+    }
+}
+
+/* Есть вопрос по маржину в features */
