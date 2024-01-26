@@ -37,6 +37,11 @@
         margin: 36px auto 0 auto;
     }
 
+    .modal-window {
+        width: 408px;
+        padding: 72px 24px 24px 24px;
+    }
+
     .features__list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -231,4 +236,9 @@
     }
 }
 
-/* Есть вопрос по маржину в features */
+/* 
+
+.privacy-policy {
+  min-width: 16px;
+  просто width: 16px; в мобільних стилях не працює. Чому?
+  */
