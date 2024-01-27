@@ -15,6 +15,10 @@
         align-self: center;
     }
 
+    .mobile-menu-btn {
+        display: none;
+    }
+
     .solutions {
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-bg-tab.jpg);
@@ -239,6 +243,7 @@
 /* 
 
 .privacy-policy {
-  min-width: 16px;
-  просто width: 16px; в мобільних стилях не працює. Чому?
-  */
+min-width: 16px;
+Чому просто width: 16px; в мобільних стилях не працює.
+
+*/
