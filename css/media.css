@@ -239,11 +239,3 @@
         margin: 0;
     }
 }
-
-/* 
-
-.privacy-policy {
-min-width: 16px;
-Чому просто width: 16px; в мобільних стилях не працює.
-
-*/
