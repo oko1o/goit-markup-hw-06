@@ -8,6 +8,17 @@
         gap: 40px;
     }
 
+    .nav__menu__link-active::after {
+        content: "";
+        width: 48px;
+        height: 4px;
+        background-color: #404bbf;
+        border-radius: 2px;
+        position: absolute;
+        left: 0;
+        bottom: -30px;
+    }
+
     .address__menu {
         display: flex;
         flex-direction: column;
@@ -15,7 +26,13 @@
         align-self: center;
     }
 
-    .mobile-menu-btn {
+    .address__menu__link {
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+    }
+
+    .menu-open-btn {
         display: none;
     }
 
@@ -34,6 +51,7 @@
     .solutions__header {
         font-size: 56px;
         line-height: 1.07;
+        max-width: 496px;
         letter-spacing: 0.02em;
     }
 
@@ -87,7 +105,7 @@
     .footer__list {
         flex-direction: row;
         flex-wrap: wrap;
-        max-width: 768px;
+        max-width: 584px;
         gap: 72px 24px;
         justify-content: flex-start;
         padding: 0 15px 0 15px;
@@ -98,6 +116,15 @@
     .footer__list__logo-and-p {
         margin-left: 0;
         align-items: flex-start;
+    }
+
+    .footer__list__social {
+        margin: 0;
+    }
+
+    .footer__list__social__text,
+    .footer__list__subscribe__text {
+        text-align: left;
     }
 
     .subscribe-form {
@@ -115,12 +142,22 @@
 @media all and (min-width:1158px) {
     .container {
         max-width: 1158px;
-        padding: 0 15px 0 15px;
+        padding: 24px 15px;
+    }
+
+    .nav__menu__link-active::after {
+        bottom: -25px;
     }
 
     .address__menu {
         flex-direction: row;
         gap: 40px;
+    }
+
+    .address__menu__link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
 
     .solutions {
@@ -208,11 +245,6 @@
         padding: 0;
     }
 
-    .footer__list__social__text,
-    .footer__list__subscribe__text {
-        text-align: left;
-    }
-
     .footer__list {
         flex-direction: row;
         flex-wrap: nowrap;
@@ -239,3 +271,6 @@
         margin: 0;
     }
 }
+
+
+/* в тайтле солюшн не получается 4 строки */
