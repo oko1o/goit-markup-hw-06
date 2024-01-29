@@ -284,7 +284,7 @@ ul {
   letter-spacing: 0.02em;
   font-weight: 700;
   color: #ffffff;
-  max-width: 288px;
+  max-width: 216px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -738,6 +738,7 @@ ul {
 
 .our-portfolio__list__item__description {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   border-top: none;
 }
 
